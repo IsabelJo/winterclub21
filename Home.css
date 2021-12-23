@@ -1,0 +1,40 @@
+h1 {
+    color: azure;
+    font-family:'Franklin Gothic Medium';
+}
+.secondH1 {
+    color: azure;
+    font-family: 'Franklin Gothic Medium';
+}
+#thirdH1 {
+    color: #ffce8f;
+    font-family: 'Franklin Gothic Medium';
+}
+table, th, td {
+    border: azure solid 5px;
+    border-collapse: collapse;
+    width: 200px;
+}
+.top {
+    width: 100%;
+    height: 50%;
+    background-color: #e0748b; opacity: 50%;
+    padding: 20px
+    margin: 5px;
+}
+#lefttop {
+    width: 50%
+    display: block;
+}
+#righttop {
+    width: 50%;
+    display: block;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    display: inline;
+}

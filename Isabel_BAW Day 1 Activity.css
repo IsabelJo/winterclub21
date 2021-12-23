@@ -1,0 +1,29 @@
+table, th, td {
+    border: azure solid 5px;
+    border-collapse: collapse;
+    width: 400px;
+    padding: 5px;
+}
+th {
+    height: 50px;
+}
+            h2 {
+                color: #ffce8f;
+                font-family: 'Franklin Gothic Medium';
+            }
+            h3 {
+                color: #fed1da;
+                font-family: serif;
+            }
+            h4 {
+                color: #ffe5c4;
+                font-family: serif;
+            }
+            h5 {
+                color: #fed1da;
+                font-family: serif;
+            }
+            h6{
+                color: azure;
+                font-family: serif;
+            }
