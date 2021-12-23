@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Second Webpage</title>
+        <link type="text/css" rel="stylesheet" href="Home.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous">
+        <script src="Home.js"></script>
+    </head>
+    <body style="background-image: url(Bg.png);"></style>
+        <div>
+            <ul class="type1">
+             <style type="text/css">
+                 .type1 {list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                }
+             </style>
+                <li>
+                    <img src="GG2.png" style="height: 60px; width: 60px;">
+                    <a href="Home.html" style="color: azure;" style="font-family: serif;">Home</a>
+                    <a href="https://youtu.be/xvFZjo5PgG0" style="color: azure;" style="font-family: serif;">Surprise</a>
+                    <a href="Isabel_BAW Day 1 Activity.html" style="color: azure;" style="font-family: serif;">About Me</a>
+                    <form class="form-inline my-2 my-lg-0" display="form-inline">
+                        <input class="form-control mr-sm-2" type="search" style="font-family: poppins;" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                </li>
+            </ul>
+            <hr>
+    </div>
+    <div class="top">
+        <div id="lefttop">
+            <h1 class="secondH1">Welcome</h1>
+            <h1 class="secondH1">To</h1>
+        </div>
+    <div id="righttop">
+        <h1 id="thirdH1">My</h1>
+        <h2 class="secondH1">Page</h2>
+    </div>
+<div>
+    <h3>This button looks so cool</h3>
+        <button class="btn btn-indo" onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+        <script>
+        function myFunction() {
+            var txt;
+                if (confirm("You are so swag!")){
+                    txt = "You pressed OK!";
+                } else {
+                    txt = "You pressed Cancel!";
+                }
+        document.getElementByid('demo').innterHTML = txt
+            }
+        </script>
+</div>
+</html>
